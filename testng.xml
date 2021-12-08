@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="resources.Listners"/>
+<listener class-name="resources.ExtentReporterNG"/>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="AA.Anumati.SearchAccountUsingPhNoAndBank"/>
+      <class name="AA.Anumati.AddAllAccounts"/>	
+      <class name="AA.Anumati.FetchAccountDetails"/>
+      <class name="AA.Anumati.ProfileEdit"/>
+      <class name="AA.Anumati.LoginNLogout"/>
+      <class name="AA.Anumati.RemovingAllAccounts"/>
+      <class name="AA.Anumati.AddingMultipleAccounts"/>
+      <class name="AA.Anumati.RemovingSingleAccount"/>
+      <class name="AA.Anumati.AddingSingleAccount"/>
+      <class name="AA.Anumati.ChangePIN"/>   
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

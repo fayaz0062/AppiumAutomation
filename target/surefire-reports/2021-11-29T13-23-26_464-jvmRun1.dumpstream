@@ -1,0 +1,8 @@
+# Created at 2021-11-29T13:26:05.476
+A session is either terminated or not started
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PERFIOS-HW-099', ip: '192.168.22.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Fayaz\Appium\Anuma..., appPackage: com.anumati, autoGrantPermissions: true, automationName: uiautomator2, chromeOptions: {w3c: false}, databaseEnabled: false, desired: {app: C:\Users\Fayaz\Appium\Anuma..., autoGrantPermissions: true, automationName: uiautomator2, chromeOptions: {w3c: false}, deviceName: Fayaz_Emulator2, goog:chromeOptions: {w3c: false}, newCommandTimeout: 14, platformName: android}, deviceApiLevel: 30, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, goog:chromeOptions: {w3c: false}, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 14, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 56078a25-c9bc-4c30-a3fe-9dc67afa0c0e
+

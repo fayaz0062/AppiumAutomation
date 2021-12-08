@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 812.446 s <<< FAILURE! - in TestSuite
+AA.Anumati.SearchAccountUsingPhNoAndBank.AccountsSearch[7760305049, 7760305049, 0082](1)  Time elapsed: 135.053 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.view.View[@text='Registered phone number']})
+	at AA.Anumati.SearchAccountUsingPhNoAndBank.AccountsSearch(SearchAccountUsingPhNoAndBank.java:50)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@7502291e (tried for 1 second(s) with 500 milliseconds interval)
+	at AA.Anumati.SearchAccountUsingPhNoAndBank.AccountsSearch(SearchAccountUsingPhNoAndBank.java:50)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.view.View[@text='Registered phone number']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PERFIOS-HW-099', ip: '192.168.22.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_312'
+Driver info: driver.version: AndroidDriver
+	at AA.Anumati.SearchAccountUsingPhNoAndBank.AccountsSearch(SearchAccountUsingPhNoAndBank.java:50)
+
+AA.Anumati.AddingMultipleAccounts.MultiAccountsAdd[7760305049, 7760305049, 0082](1)  Time elapsed: 69.753 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.Button[@text='Proceed']})
+	at AA.Anumati.AddingMultipleAccounts.MultiAccountsAdd(AddingMultipleAccounts.java:55)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@656922a0 (tried for 1 second(s) with 500 milliseconds interval)
+	at AA.Anumati.AddingMultipleAccounts.MultiAccountsAdd(AddingMultipleAccounts.java:55)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.Button[@text='Proceed']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PERFIOS-HW-099', ip: '192.168.22.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_312'
+Driver info: driver.version: AndroidDriver
+	at AA.Anumati.AddingMultipleAccounts.MultiAccountsAdd(AddingMultipleAccounts.java:55)
+
+AA.Anumati.RemovingSingleAccount.RemoveOneAccounts[7760305049, 7760305049, 0082](1)  Time elapsed: 55.77 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 3, Size: 3
+	at AA.Anumati.RemovingSingleAccount.RemoveOneAccounts(RemovingSingleAccount.java:54)
+
+AA.Anumati.AddingSingleAccount.SingleAccountAdd[7760305049, 7760305049, 0082](1)  Time elapsed: 63.29 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.Button[@text='Proceed']})
+	at AA.Anumati.AddingSingleAccount.SingleAccountAdd(AddingSingleAccount.java:57)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@294f9d50 (tried for 1 second(s) with 500 milliseconds interval)
+	at AA.Anumati.AddingSingleAccount.SingleAccountAdd(AddingSingleAccount.java:57)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.Button[@text='Proceed']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PERFIOS-HW-099', ip: '192.168.22.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_312'
+Driver info: driver.version: AndroidDriver
+	at AA.Anumati.AddingSingleAccount.SingleAccountAdd(AddingSingleAccount.java:57)
+
+AA.Anumati.ChangePIN.ChangingPIN[7760305049, 7760305049, 0082](1)  Time elapsed: 94.689 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.Button[@text='Sign In']})
+	at AA.Anumati.ChangePIN.ChangingPIN(ChangePIN.java:75)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@134f8ef6 (tried for 1 second(s) with 500 milliseconds interval)
+	at AA.Anumati.ChangePIN.ChangingPIN(ChangePIN.java:75)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.Button[@text='Sign In']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PERFIOS-HW-099', ip: '192.168.22.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_312'
+Driver info: driver.version: AndroidDriver
+	at AA.Anumati.ChangePIN.ChangingPIN(ChangePIN.java:75)
+
